@@ -1,0 +1,40 @@
+site_name: fzxhub mkdocs
+site_url: https://mkdocs.fzxhub.com/
+site_author: fzxhub
+theme: 
+  name: material
+  language: zh
+  logo: assets/logo64x64.svg
+  favicon: assets/logo64x64.svg
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.indexes
+    - navigation.top
+    - toc.integrate
+#  features:
+#    - navigation.instant
+#  features:
+#    - navigation.tabs
+  palette:
+    - scheme: slate
+      primary: black
+      accent: black
+      toggle:
+        icon: material/eye
+        name: Switch to light mode
+    - scheme: default
+      primary: green
+      accent: green
+      toggle:
+        icon: material/eye-outline
+        name: Switch to dark mode
+    
+
+copyright: Copyright &copy; 2016 - 2021 fzxhub
+
+extra:
+  generator: false
+
+
+
