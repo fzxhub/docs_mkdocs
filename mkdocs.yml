@@ -49,7 +49,7 @@ repo_url: https://github.com/fzxhub/docs_share_mkdocs
 repo_name: fzxhub/mkdocs
 
 
-
+#部署到当前仓库gh_pages分支上指令： mkdocs gh-deploy --force
 
 
 
