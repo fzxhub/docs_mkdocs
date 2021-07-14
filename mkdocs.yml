@@ -1,21 +1,26 @@
+#网站相关设置
 site_name: fzxhub mkdocs
 site_url: https://mkdocs.fzxhub.com/
 site_author: fzxhub
+
+#主题设置
 theme: 
   name: material
   language: zh
   logo: assets/logo64x64.svg
   favicon: assets/logo64x64.svg
+  icon:
+    repo: fontawesome/brands/github
+  features:
+    - navigation.tracking
+    - navigation.tabs
   features:
     - navigation.sections
     - navigation.expand
     - navigation.indexes
     - navigation.top
     - toc.integrate
-#  features:
-#    - navigation.instant
-#  features:
-#    - navigation.tabs
+    - navigation.tabs
   palette:
     - scheme: slate
       primary: black
@@ -29,12 +34,22 @@ theme:
       toggle:
         icon: material/eye-outline
         name: Switch to dark mode
-    
 
+#导航栏设置
+#nav:
+#    - Home: index.md
+#    - About: 
+#      - linux: holle/?.md  
+
+#版权设置
 copyright: Copyright &copy; 2016 - 2021 fzxhub
 
-extra:
-  generator: false
+#仓库设置
+repo_url: https://github.com/fzxhub/docs_share_mkdocs
+repo_name: fzxhub/mkdocs
+
+
+
 
 
 
