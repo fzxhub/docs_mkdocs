@@ -6,12 +6,27 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://mkdocs.fzxhub.com/holle/</loc>
+         <loc>https://mkdocs.fzxhub.com/linux/ARM/</loc>
          <lastmod>2021-07-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://mkdocs.fzxhub.com/linux/abc/</loc>
+         <loc>https://mkdocs.fzxhub.com/linux/Macos_PD_Ubuntu_Display/</loc>
+         <lastmod>2021-07-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://mkdocs.fzxhub.com/linux/Macos_Uart/</loc>
+         <lastmod>2021-07-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://mkdocs.fzxhub.com/linux/Makefile/</loc>
+         <lastmod>2021-07-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://mkdocs.fzxhub.com/linux/Vim/</loc>
          <lastmod>2021-07-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
