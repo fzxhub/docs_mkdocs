@@ -40,7 +40,7 @@ theme:
 #      - linux: holle/?.md  
 
 #版权设置
-copyright: Copyright &copy; 2016 - 2021 fzxhub
+copyright: Copyright &copy; 2019 - 2021 fzxhub
 
 #仓库设置
 #repo_url: https://github.com/fzxhub/docs_share_mkdocs
@@ -48,6 +48,7 @@ copyright: Copyright &copy; 2016 - 2021 fzxhub
 
 #插件
 plugins:
+  - search
 
 
 #部署到当前仓库gh_pages分支上指令： mkdocs gh-deploy --force
