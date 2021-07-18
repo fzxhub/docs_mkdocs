@@ -1,4 +1,4 @@
-## Makefile笔记
+# Makefile笔记
 
 ### 1.伪目标
 

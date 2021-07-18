@@ -1,4 +1,4 @@
-## Ubuntu下vim的使用方法
+# Ubuntu下vim的使用方法
 
 ### 1、设置vim的默认打开方式：
 

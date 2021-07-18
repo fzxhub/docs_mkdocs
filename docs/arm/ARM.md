@@ -1,6 +1,6 @@
-## ARM常用汇编指令
+# ARM常用汇编指令
 
-1. 汇编格式：
+### 1. 汇编格式：
 
 ```
 label：instruction @ comment
@@ -10,7 +10,7 @@ label：instruction @ comment
 - instruction：具体汇编指令
 - comment：注释内容 （@之后不参与编译）
 
-2. 常用段名：
+### 2. 常用段名：
 
 - .text：代码段
 
@@ -26,7 +26,7 @@ label：instruction @ comment
   .section .vector  @自定义的段名为.vector
   ```
 
-3. 常见伪操作：
+### 3. 常见伪操作：
 
 - .global：定义全局标号
 
@@ -41,7 +41,7 @@ label：instruction @ comment
   ```
 
 
-4. 寄存器间数据传输:
+### 4. 寄存器间数据传输:
 
 - mov：寄存器数据(或者是立即数)拷贝到另一个寄存器
 
@@ -70,7 +70,7 @@ label：instruction @ comment
 
 
 
-5. 内存与寄存器数据传输:
+### 5. 内存与寄存器数据传输:
 
 - ldr：把内存数据(或者是立即数)加载到寄存器
 
@@ -88,7 +88,7 @@ label：instruction @ comment
 
 
 
-6. 压栈和出栈
+### 6. 压栈和出栈
 
 - push：把寄存器列表存入栈中
 
@@ -104,7 +104,7 @@ label：instruction @ comment
 
 
 
-7. 跳转
+### 7. 跳转
 
 - b：跳转到目标地址
 
@@ -120,7 +120,7 @@ label：instruction @ comment
 
 
 
-8. 算术运算指令
+### 8. 算术运算指令
 
 - add：加法运算
 
@@ -151,7 +151,7 @@ label：instruction @ comment
 
 
 
-9. 逻辑运算
+### 9. 逻辑运算
 
 - and：与
 
@@ -172,6 +172,6 @@ label：instruction @ comment
   bic r1,r2,r3
   ```
 
-10.  注意：ARM 中的指令、伪指令、伪操作、寄存器名等可以全部使用大写，也可以全部使用 小写，但是不能大小写混用。
+> 注意：ARM 中的指令、伪指令、伪操作、寄存器名等可以全部使用大写，也可以全部使用 小写，但是不能大小写混用。
 
 修改：fzxhub    来源：野火 

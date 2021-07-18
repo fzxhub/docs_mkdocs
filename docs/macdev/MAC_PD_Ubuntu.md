@@ -1,4 +1,5 @@
-## MAC通过PD安装的Ubuntu显示问题
+
+# MAC通过PD安装的Ubuntu显示问题
 
 ### 背景
 

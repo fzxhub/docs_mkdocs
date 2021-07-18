@@ -12,15 +12,13 @@ theme:
   icon:
     repo: fontawesome/brands/github
   features:
-    - navigation.tracking
-    - navigation.tabs
-  features:
     - navigation.sections
     - navigation.expand
     - navigation.indexes
     - navigation.top
     - toc.integrate
     - navigation.tabs
+    - navigation.tracking
   palette:
     - scheme: slate
       primary: black
@@ -45,8 +43,8 @@ theme:
 copyright: Copyright &copy; 2016 - 2021 fzxhub
 
 #仓库设置
-repo_url: https://github.com/fzxhub/docs_share_mkdocs
-repo_name: fzxhub/mkdocs
+#repo_url: https://github.com/fzxhub/docs_share_mkdocs
+#repo_name: fzxhub/mkdocs
 
 #插件
 plugins:
